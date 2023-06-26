@@ -1,5 +1,5 @@
 const addBtn = document.querySelector('.btn_add')
-let body = document.querySelector('.todo_body')
+const body = document.querySelector('.todo_body')
 addBtn.addEventListener('click', addTodo)
 let todos = []
 
@@ -14,13 +14,11 @@ function addTodo() {
 function render() {
     let html = ' '
     todos.forEach((item) => {
-        console.log(item)
         html +=
         `
             <li class="todo_item">${item}</li>
         `
     })
-    console.log(html)
     body.innerHTML = html 
 }
 
