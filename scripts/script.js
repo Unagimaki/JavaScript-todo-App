@@ -3,17 +3,25 @@ const body = document.querySelector('.todo_body')
 addBtn.addEventListener('click', addTodo)
 let todos = []
 
-console.log('work')
+html = ''
+body = html
+
 
 function addTodo() {
     let add = prompt('Название дела')
     todos.push(add)
-    todos.forEach((item) => {
-        console.log(item)
-    })
 
     let li = document.createElement('li')
     li.innerHTML = add
     body.append(li)
 
+}
+
+function render() {
+    todos.forEach((item) => {
+        html += 
+        `
+            <li class="todo_item">${add}</li>
+        `
+    })
 }
