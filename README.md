@@ -9,4 +9,5 @@
 5. Отобразить только важные
 6. Отобразить только выполненные
 
-![image](https://github.com/Unagimaki/JavaScript-todo-App/assets/134698209/1e16caf0-2119-4360-a6aa-4bd5e43f75b5)
+![image](https://github.com/Unagimaki/JavaScript-todo-App/assets/134698209/0bc363d2-b344-4f30-a430-fca5b90c70b0)
+
